@@ -10,9 +10,9 @@ const HomeHero = () => {
       <Header />
       <section className="flex items-center mx-auto flex-col lg:flex-row max-w-4xl ">
         <div>
-          <h1 className="text-4xl">Hey, I'm Muhammad Zafar 👋</h1>
+          <h1 className="text-4xl">Hey, I&apos;m Muhammad Zafar 👋</h1>
           <p className="py-5 text-xl text-slate-700">
-            I'm a Full Stack Web Developer and an undergraduate student of
+            I&apos;m a Full Stack Web Developer and an undergraduate student of
             Computer Science. As a developer I take on several different
             projects creating mostly web applications.{" "}
           </p>
@@ -21,7 +21,7 @@ const HomeHero = () => {
               Download CV
             </button>
             <button className="rounded-lg border-2 border-slate-700 py-2 px-5 ms-3  text-black font-medium  text-lg hover:bg-slate-700 hover:text-white hover:scale-105 hover:shadow-lg  duration-300">
-              Let's connect
+              Let&apos;s connect
             </button>
           </div>
         </div>
