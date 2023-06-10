@@ -21,14 +21,14 @@ const Header = () => {
               <Link href="/#home">Home</Link>
             </li>
             <li className="cursor-pointer hover:translate-y-1 duration-300">
-            <Link href='/#skills'>Skills</Link>
+            <Link href="/#skills">Skills</Link>
             </li>
             <li className="cursor-pointer hover:translate-y-1 duration-300">
-            <Link href='/#project'>Projects</Link>
+            <Link href="/#project">Projects</Link>
             </li>
             <li>
               <button className="font-bold rounded-lg hover:translate-y-1 hover:bg-slate-600 px-3 py-2 duration-300">
-              <Link href='/#contact'>Contact Me</Link>
+              <Link href="/#contact">Contact Me</Link>
               </button>
             </li>
           </ul>
@@ -36,16 +36,16 @@ const Header = () => {
       ) : (
         <ul className="gap-7 hidden md:flex scroll-smooth">
           <li className="cursor-pointer hover:translate-y-1 duration-300 text-2xl">
-            <Link href='/#home'>Home</Link>
+            <Link href="/#home">Home</Link>
           </li>
           <li className="cursor-pointer hover:translate-y-1 duration-300 text-2xl">
-            <Link href='/#skills'>Skills</Link>
+            <Link href="/#skills">Skills</Link>
           </li>
           <li className="cursor-pointer hover:translate-y-1 duration-300 text-2xl">
-            <Link href='/#projects'>Projects</Link>
+            <Link href="/#projects">Projects</Link>
           </li>
           <li className="cursor-pointer hover:translate-y-1 duration-300 text-2xl">
-            <Link href='/#contact'>Contact Me</Link>
+            <Link href="/#contact">Contact Me</Link>
           </li>
         </ul>
       )}

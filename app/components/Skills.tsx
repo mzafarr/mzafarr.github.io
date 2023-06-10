@@ -92,7 +92,7 @@ const Skills = () => {
         <h2 className="text-5xl pb-3 pt-20 font-semibold">Skills</h2>
         <div className="flex flex-wrap justify-center gap-10 py-5">
           {skills.map((skill, index) => (
-            <Skill name={skill.name} image={skill.image} />
+            <Skill key={index} name={skill.name} image={skill.image} />
           ))}
         </div>
       </div>
