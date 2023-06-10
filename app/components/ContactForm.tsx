@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <div className="bg-white py-14 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-14 px-4 sm:px-6 lg:px-8" id="contact">
       <h2 className="text-5xl text-center font-semibold pb-14">Contact Form</h2>
       <div className="max-w-2xl mx-auto">
         <form

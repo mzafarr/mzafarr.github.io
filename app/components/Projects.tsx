@@ -3,7 +3,6 @@ import Project from "./Project";
 import chatbot from "../images/chatbot.gif";
 import passwordManager from "../images/passwordManager.gif";
 import { StaticImageData } from "next/image";
-import Wrapper from "./Shared/Wrapper";
 
 interface IProject {
   heading: string;
@@ -33,8 +32,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="px-4 mx-auto flex flex-col justify-center items-center bg-[#eeeeee]">
-      <h2 className="text-5xl pb-3 font-semibold py-14">Projects</h2>
+    <section id="projects" className="px-4 mx-auto flex flex-col justify-center items-center bg-[#eae8e8dc] py-14">
+      <h2 className="text-5xl pb-3 font-semibold">Projects</h2>
       <div>
         {obj.map((item, index) => (
           <Project
@@ -48,7 +47,7 @@ const Projects = () => {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

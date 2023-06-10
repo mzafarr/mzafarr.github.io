@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from "next/image";
 import React, { FC } from "react";
-import FaGithub from "react-icons/fa";
 interface IProject {
   heading: string;
   desc: string;
@@ -25,12 +24,11 @@ const Project: FC<IProject> = ({
     >
       <div className="flex flex-col flex-1 text-xl">
         <h2 className="text-3xl font-semibold mb-3">{heading}</h2>
-        <p className="text-justify ">{desc}</p>
+        <p className="text-lg text-justify ">{desc}</p>
         <button className="px-6 py-3 text-center bg-violet-700 hover:bg-violet-600 text-white mt-5  mb-2 ml-0 rounded-lg">
           <a href={link}>View Project</a>
         </button>
         <button className="px-6 py-3 text-center bg-slate-700 hover:bg-slate-600 text-white  mt-4 rounded-lg">
-          <FaGithub />
           <a href={code}>Source Code</a>
         </button>
       </div>

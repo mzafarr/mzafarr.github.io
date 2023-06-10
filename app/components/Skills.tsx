@@ -8,7 +8,7 @@ import react from "../images/react.png";
 import mongodb from "../images/mongodb.png";
 import nodejs from "../images/nodejs.png";
 import python from "../images/python.png";
-import docker from "../images/docker.png";
+import graphql from "../images/graphql.png";
 import tailwind from "../images/tailwind.png";
 import postgres from "../images/postgres.png";
 import firebase from "../images/firebase.png";
@@ -65,8 +65,8 @@ const Skills = () => {
       image: nodejs,
     },
     {
-      name: "Docker",
-      image: docker,
+      name: "GraphQL",
+      image: graphql,
     },
     {
       name: "HTML",
@@ -87,7 +87,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-[#eeeeeed0]  -mt-10 pb-14">
+    <section className="bg-[#eeeeeed0]  -mt-10 pb-14" id="skills">
       <div className="max-w-[620px] flex flex-col items-center mx-auto my-10 ">
         <h2 className="text-5xl pb-3 pt-20 font-semibold">Skills</h2>
         <div className="flex flex-wrap justify-center gap-10 py-5">
@@ -96,7 +96,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

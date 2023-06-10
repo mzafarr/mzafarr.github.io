@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Header from "./Header";
 const HomeHero = () => {
   return (
-    <div className="landing-page z-1 w-screen p-0 m-0 bg-white">
+    <div className="landing-page z-1 w-screen p-0 m-0 bg-white" id="home">
       <Header />
       <section className="flex items-center mx-auto flex-col lg:flex-row max-w-4xl ">
         <div>
