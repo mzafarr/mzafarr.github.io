@@ -12,8 +12,8 @@ const Header = () => {
   };
 
   return (
-    <section className="scroll-smooth flex justify-between py-5 pb-14">
-      <h3 className="text-3xl pl-10 text-slate-700 font-bold">MZ</h3>
+    <section className="scroll-smooth px-8 flex justify-between py-5 pb-14">
+      <h3 className="text-3xl md:pl-2 text-slate-700 font-bold">MZ</h3>
       {toggle ? (
         <div className="fixed top-0 left-0 bg-[#c3c3c3] h-screen w-full md:hidden flex justify-center pt-20 items-start text-white text-4xl">
           <ul className="gap-10 flex text-center flex-col text-white">
@@ -53,7 +53,7 @@ const Header = () => {
         onClick={toggleHamburger}
         className={`cursor-pointer z-20 ${toggle && "text-white"}`}
       >
-        <div className="md:hidden">
+        <div className="md:hidden text-black  ">
           {toggle ? <RxCross2 size={30} /> : <GiHamburgerMenu size={30} />}
         </div>
       </div>

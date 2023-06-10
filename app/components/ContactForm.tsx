@@ -57,7 +57,7 @@ export default function ContactForm() {
             ></textarea>
           </div>
           <button
-            className="bg-violet-700 hover:bg-violet-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-violet-700 hover:bg-violet-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full sm:w-20"
             type="submit"
           >
             Submit

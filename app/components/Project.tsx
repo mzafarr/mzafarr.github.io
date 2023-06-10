@@ -18,14 +18,14 @@ const Project: FC<IProject> = ({
 }) => {
   return (
     <div
-      className={`flex gap-5 lg:gap-10 md:flex-reverse max-w-4xl m-16 ${
-        side === 1 && "flex-row-reverse"
+      className={`flex gap-5 lg:gap-10 flex-col-reverse md:flex-row max-w-4xl mx-2 my-20 ${
+        side === 1 && "flex-col md:flex-row-reverse"
       }`}
     >
       <div className="flex flex-col justify-between flex-1 text-xl">
         <div>
           <h2 className="text-3xl font-semibold mb-3">{heading}</h2>
-          <p className="text-lg text-justify ">{desc}</p>
+          <p className="text-lg ">{desc}</p>
         </div>
         <div className="flex flex-col w-full">
           <button className="px-6 py-3 text-center bg-violet-700 hover:bg-violet-600 text-white mt-5  mb-1.5 ml-0 rounded-lg">
@@ -36,8 +36,8 @@ const Project: FC<IProject> = ({
           </button>
         </div>
       </div>
-      <div className="flex-1">
-        <Image src={snapshot} alt={heading} height={450} />
+      <div className="flex-1 mx-auto">
+        <Image src={snapshot} alt={heading}  />
       </div>
     </div>
   );
