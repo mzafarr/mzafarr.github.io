@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.landing-page {
+        min-height: 100vh;
+        background: linear-gradient(-45deg, #FCFCFC, #ccc);
+        background-image: url("/bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60%;
+      
+        animation: bg-animation 10s ease infinite;
+      }
+      
+      @keyframes bg-animation {
+        0% {
+          background-position: 60%;
+        }
+        50% {
+          background-position: 64%;
+        }
+        100% {
+          background-position: 60%;
+        }
+      }
+ 
