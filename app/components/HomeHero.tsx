@@ -22,7 +22,7 @@ const HomeHero = () => {
           </div>
           <div className="pb-5 my-2 flex flex-col sm:flex-row">
             <button className="rounded-lg border-2 border-slate-700 bg-slate-700 py-2 px-5  text-white font-medium  text-lg hover:scale-105 hover:shadow-lg duration-300">
-              <a href="/resume.pdf" download>
+              <a href="/resume.pdf" target="_blank" download>
                 Download CV
               </a>
             </button>
