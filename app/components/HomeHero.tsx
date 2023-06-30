@@ -22,12 +22,12 @@ const HomeHero = () => {
           </div>
           <div className="pb-5 my-2 flex flex-col sm:flex-row">
             <button className="rounded-lg border-2 border-slate-700 bg-slate-700 py-2 px-5  text-white font-medium  text-lg hover:scale-105 hover:shadow-lg duration-300">
-              <a href="/resume.pdf" target="_blank" download>
+              <a className="absolute top-0 left-0 w-full h-full text-decoration-none text-inherit" href="/resume.pdf" target="_blank" download>
                 Download CV
               </a>
             </button>
             <button className="rounded-lg border-2 border-slate-700 py-2 px-5 sm:ms-2 my-3 sm:my-0 text-black font-medium  text-lg hover:bg-violet-600 hover:border-violet-600 hover:text-white  hover:shadow-lg  duration-200">
-              <a href="https://linkedin.com/in/zafarr" target="_blank"> Let&apos;s connect</a>
+              <a className="absolute top-0 left-0 w-full h-full text-decoration-none text-inherit" href="https://linkedin.com/in/zafarr" target="_blank"> Let&apos;s connect</a>
             </button>
           </div>
         </div>
