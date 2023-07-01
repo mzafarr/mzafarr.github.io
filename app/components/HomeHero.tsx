@@ -22,7 +22,7 @@ const HomeHero = () => {
           </div>
           <div className="pb-5 my-2 flex flex-col sm:flex-row">
             <a
-              className="relative top-0 left-0 w-full h-full text-decoration-none text-inherit"
+              className="py-3 mb-1.5 ml-0"
               href="/resume.pdf"
               target="_blank"
               download
@@ -32,7 +32,7 @@ const HomeHero = () => {
               </button>
             </a>
             <a
-              className="relative top-0 left-0 w-full h-full text-decoration-none text-inherit"
+              className="py-3 mb-1.5 ml-0"
               href="https://linkedin.com/in/zafarr"
               target="_blank"
             >

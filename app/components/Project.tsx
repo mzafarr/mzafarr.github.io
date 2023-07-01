@@ -30,19 +30,19 @@ const Project: FC<IProject> = ({
         <div className="flex flex-col w-full">
           <a
             target="_blank"
-            className="relative top-0 left-0 w-full h-full text-decoration-none text-inherit"
+            className="text-decoration-none px-6 py-3 mb-1.5 ml-0 "
             href={link}
           >
-            <button className="px-6 py-3 text-center bg-violet-700 hover:bg-violet-600 text-white mt-5  mb-1.5 ml-0 rounded-lg">
+            <button className="text-center w-full bg-violet-700 hover:bg-violet-600 text-white mt-5 rounded-lg">
               View Project
             </button>
           </a>
           <a
             target="_blank"
-            className="relative top-0 left-0 w-full h-full text-decoration-none text-inherit"
+            className="text-decoration-none"
             href={code}
           >
-            <button className="px-6 py-3 text-center bg-slate-700 hover:bg-slate-600 text-white  mt-2 rounded-lg">
+            <button className="px-6 py-3 text-center w-full bg-slate-700 hover:bg-slate-600 text-white  mt-2 rounded-lg">
               Source Code
             </button>
           </a>
