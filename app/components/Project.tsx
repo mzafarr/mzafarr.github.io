@@ -33,7 +33,7 @@ const Project: FC<IProject> = ({
             className="text-decoration-none px-6 py-3 mb-1.5 ml-0 "
             href={link}
           >
-            <button className="text-center w-full bg-violet-700 hover:bg-violet-600 text-white mt-5 rounded-lg">
+            <button className="px-6 py-3 text-center w-full bg-violet-700 hover:bg-violet-600 text-white mt-5 rounded-lg">
               View Project
             </button>
           </a>
