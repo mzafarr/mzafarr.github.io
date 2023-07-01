@@ -30,7 +30,7 @@ const Project: FC<IProject> = ({
         <div className="flex flex-col w-full">
           <a
             target="_blank"
-            className="text-decoration-none px-6 py-3 mb-1.5 ml-0 "
+            className="text-decoration-none mb-1.5 ml-0 "
             href={link}
           >
             <button className="px-6 py-3 text-center w-full bg-violet-700 hover:bg-violet-600 text-white mt-5 rounded-lg">
