@@ -12,9 +12,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="scroll-smooth">
-          {children}
-      </body>
+      <head>
+        <meta
+          name="google-site-verification"
+          content="OPtENAC_KqIb9HEnA8tARvf01pjpCMb_VnJS30k9iKQ"
+        />
+      </head>
+      <body className="scroll-smooth">{children}</body>
     </html>
   );
 }
