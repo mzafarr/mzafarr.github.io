@@ -13,11 +13,7 @@ const HomeHero = () => {
           <div>
             <h1 className="text-4xl">Hey, I&apos;m Muhammad Zafar 👋</h1>
             <p className="py-5 text-xl text-slate-700">
-              Passionate Full Stack Web Developer with expertise in MERN stack
-              and Next.js. I have worked on various web applications and
-              technologies. Seeking internship opportunities to contribute,
-              learn, and connect with like-minded professionals. Let&apos;s
-              collaborate and make an impact together!
+              Enthusiastic Full Stack Web Developer specializing in the MERN stack and Next.js. Proven experience across diverse web applications and technologies. Actively seeking open positions for both employment and freelance work. Let&apos;s collaborate to create meaningful impact!
             </p>
           </div>
           <div className="pb-5 my-2 flex flex-col sm:flex-row">
